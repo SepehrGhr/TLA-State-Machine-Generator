@@ -33,7 +33,7 @@ Getting the project up and running on your local machine is straightforward.
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/SepehrGhr/TLA-State-Machine-Generator.git](https://github.com/SepehrGhr/TLA-State-Machine-Generator.git)
+    git clone [https://github.com/SepehrGhr/TLA-State-Machine-Generator.git]
     cd TLA-State-Machine-Generator
     ```
 
@@ -97,7 +97,7 @@ The tool identifies non-regular grammars and provides clear error messages.
 
 ## 📖 Full Documentation
 
-For a deep dive into the project's architecture, data structures, and algorithms, please read our **[Comprehensive Project Documentation](docs/TLA_Project_Group_18_40220143_40219263.pdf)**.
+For a deep dive into the project's architecture, data structures, and algorithms, please read our **[Comprehensive Project Documentation](docs/documentation.pdf)**.
 
 ---
 
