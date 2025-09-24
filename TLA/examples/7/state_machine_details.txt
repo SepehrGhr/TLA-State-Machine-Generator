@@ -1,0 +1,16 @@
+Grammar : 
+E =:: T,{"+",T}
+T =:: "x"|"y"|"z"
+
+Variables : 
+E, T
+
+Terminals : 
++, x, y, z
+
+Number of States: 7
+Number of Transitions: 11
+Unreachable Variables: None
+Dead States: None
+is Grammar Deterministic : True
+is State Machine Deterministic : True

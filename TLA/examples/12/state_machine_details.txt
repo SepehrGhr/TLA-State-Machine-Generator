@@ -1,0 +1,21 @@
+Grammar : 
+S =:: A,";",B
+A =:: type, name,"=",digit
+type =:: "int"|"float"|"char"
+B =:: "printf","(",id,name,")",";"
+id =:: "'%d'"|"'%c'"|"'%f'"
+name =:: "x"|"y"|"z"
+digit =:: "0"|"1"|"2"|"3"|"4"|"5"
+
+Variables : 
+S, A, type, B, id, name, digit
+
+Terminals : 
+;, =, int, float, char, printf, (, ), '%d', '%c', '%f', x, y, z, 0, 1, 2, 3, 4, 5
+
+Number of States: 16
+Number of Transitions: 28
+Unreachable Variables: None
+Dead States: None
+is Grammar Deterministic : False
+is State Machine Deterministic : True

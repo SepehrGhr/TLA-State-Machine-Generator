@@ -1,0 +1,17 @@
+Grammar : 
+S =:: A|B
+A =:: "aa","hi"
+B =:: "aa","hello"
+
+Variables : 
+S, A, B
+
+Terminals : 
+aa, hi, hello
+
+Number of States: 6
+Number of Transitions: 6
+Unreachable Variables: None
+Dead States: None
+is Grammar Deterministic : False
+is State Machine Deterministic : False

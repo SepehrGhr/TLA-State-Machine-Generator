@@ -1,0 +1,16 @@
+Grammar : 
+S =:: "h"
+A =:: "k"
+
+Variables : 
+S, A
+
+Terminals : 
+h, k
+
+Number of States: 2
+Number of Transitions: 1
+Unreachable Variables: A
+Dead States: None
+is Grammar Deterministic : True
+is State Machine Deterministic : True

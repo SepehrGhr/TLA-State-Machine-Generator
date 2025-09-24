@@ -1,0 +1,16 @@
+Grammar : 
+S =:: {"if",E,"then"}
+E =:: "true"|"false"
+
+Variables : 
+S, E
+
+Terminals : 
+if, then, true, false
+
+Number of States: 3
+Number of Transitions: 4
+Unreachable Variables: None
+Dead States: None
+is Grammar Deterministic : True
+is State Machine Deterministic : True

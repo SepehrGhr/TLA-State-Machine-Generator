@@ -1,0 +1,17 @@
+Grammar : 
+S =:: [A,B]
+A =:: "a"
+B =:: "b"
+
+Variables : 
+S, A, B
+
+Terminals : 
+, a, b
+
+Number of States: 6
+Number of Transitions: 6
+Unreachable Variables: None
+Dead States: None
+is Grammar Deterministic : True
+is State Machine Deterministic : False

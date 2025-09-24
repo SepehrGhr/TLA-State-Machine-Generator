@@ -1,0 +1,19 @@
+Grammar : 
+S =:: A,";",B,";",A
+A =:: "i++"|"i--"|"i=",digit
+B =:: "i",cmp,digit
+cmp =:: ">"|"<"|"=="
+digit =:: "0"|"1"|"2"|"3"|"4"|"5"
+
+Variables : 
+S, A, B, cmp, digit
+
+Terminals : 
+;, i++, i--, i=, i, >, <, ==, 0, 1, 2, 3, 4, 5
+
+Number of States: 16
+Number of Transitions: 36
+Unreachable Variables: None
+Dead States: None
+is Grammar Deterministic : False
+is State Machine Deterministic : True

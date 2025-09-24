@@ -1,0 +1,17 @@
+Grammar : 
+S =:: "a","(",B,C,")"
+B =:: "int"|"float"|"char"
+C =:: "x"|"y"|"z"
+
+Variables : 
+S, B, C
+
+Terminals : 
+a, (, ), int, float, char, x, y, z
+
+Number of States: 6
+Number of Transitions: 9
+Unreachable Variables: None
+Dead States: None
+is Grammar Deterministic : True
+is State Machine Deterministic : True
